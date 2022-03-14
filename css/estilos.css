@@ -1,0 +1,610 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    color: black;
+    height: 100%;
+    box-shadow: whitesmoke;
+    padding: 1rem;
+    position: relative;
+}
+.header-contenedor {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-inicio {
+    color: black;
+    font-family: 'Mulish', sans-serif; 
+    font-weight: lighter;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    font-size: 15px;
+}
+.header-iniciotexto{
+    position: relative;
+    left: 500px;
+}
+
+
+.header-menu{
+    color: black;
+    width: 500px;
+    height: 100%;
+    background-color: white;
+    justify-items: left;
+    padding-left: 10px;
+    padding-right: 80px;
+    text-decoration: underline;
+    margin: 2rem;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: -90px;
+    
+    
+
+}
+.header__menu{
+    text-decoration: none;
+    color: black;
+}
+
+
+.header_logo {
+    position: relative;
+    right: 250px;
+    
+}
+
+.header_usuario{
+    position: relative;
+    right: -200px;
+}
+.header-iconos {
+    list-style: none;
+    width: 50px;
+    position: relative;
+    right: -200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* BODY */
+
+body{
+    font-family: 'Mulish', sans-serif; 
+    background-color: white;
+    
+}
+.banner{
+    width: 1500px ;
+    height: 800px;
+}
+
+/* SECCION NEW IN */
+.container{
+    position: relative;
+    right: -100px;
+}
+.container-texto{
+    position: relative;
+    right: -100px;
+}
+.intimates {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
+    }
+    
+
+
+    .intimates_imagenes { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }    
+    .intimates_theo{
+        position: relative;
+        left: -25px;
+        font-weight: bold;
+        width: 160px;
+        height: 200px;
+    }
+    .intimates_lee{
+        position: relative;
+        left: -8px;
+        font-weight: bold;
+        width: 160px;
+        height: 200px;
+    }
+    .intimates_rome{
+        position: relative;
+        left: 18px;
+        font-weight: bold;
+        width: 160px;
+        height: 200px;
+    }
+    .intimates_hazel{
+        position: relative;
+        left: 25px;
+        width: 160px;
+        height: 200px;
+    }
+    .intimates_roomie{
+        position: relative;
+        left: 30px;
+        width: 160px;
+        height: 200px;
+    }
+
+    /* SECCION EXPLORE THE COLLECTION */
+    
+    .explore{
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        text-align: center;
+        text-decoration: underline
+        
+        
+    }
+    
+    .explore_collection { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+       
+
+    }
+
+    .explore_botones {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 80px;
+    }
+    .img_intimates{
+        width: 430px;
+        height: 630px;
+    }
+    .img_sport{
+        width: 430px;
+        height: 630px;
+    }
+    .img_sleep{
+        width: 430px;
+        height: 630px;
+    }
+
+
+    .boton_intimates{
+        position: relative;
+        left: -100px;
+        top: -40px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.548);
+        color: white;
+        font-family: 'Mulish', sans-serif; 
+        border-radius: 5px;
+        
+    }
+    .boton_sport{
+        position: relative;
+        left: -10px;
+        top: -40px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.548);
+        color: white;
+        font-family: 'Mulish', sans-serif; 
+        border-radius: 5px;
+        
+    }
+
+    .boton_sleep{
+        position: relative;
+        left: 50px;
+        top: -40px;
+        font-size: 20px;
+        background-color: rgba(0, 0, 0, 0.548);
+        color: white;
+        font-family: 'Mulish', sans-serif; 
+        border-radius: 5px;
+    }
+
+    /* SECCION BLOG */
+    .blog {
+        background-color:#F2F2EC;
+    }
+
+    .fotoblog{
+        position: relative;
+        left: 50px;
+        background-color: wheat;
+        width: 600px;
+        height: 800px;
+    }
+
+    .newsletter{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imgbloque{
+    align-items: center;
+    text-align: center ;
+    position: relative;
+    bottom: -30px;
+    }
+
+    .imgfinales {
+        background-color: #F2F2EC;
+        padding-bottom: 30px;
+        height: 500px;
+    }
+
+    
+.blog {
+    background-color: #f7f9fa;
+    height: 800px;
+    width: 100%;
+}
+
+.blog_texto{
+    position: relative;
+    right: -700px;
+    top: -200px;
+}
+
+.blog_titulo {
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 50px;
+    top: -450px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+.blog__texto {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    right: -52px;
+    bottom: 450px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.blog_boton{
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #f7f9fa;
+    color: black;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    position: relative;
+    top: -480px;
+    left: 45px;   
+
+}
+/* SECCION NEWSLETTER */
+
+.input_email{
+    width: 300px;
+    position: relative;
+    bottom: -30px;
+    right: -130px;
+    size: 100px;
+    text-align: center;
+}
+.form_boton{
+    position: relative;
+    bottom: -75px;
+    left: -148px;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #f2f2ecde;
+    border-radius: 2px; 
+    border-width: 0px;
+    width: 250px;
+    height: 30px;   
+
+}
+
+
+.form_texto{
+    font-weight: lighter;
+}
+/* FOOTER */
+.footer_caja{ 
+    background-color: black;
+    color: #f2f2ecde;
+    height: 360px;
+    font-family: 'Mulish', sans-serif;
+    position: relative;
+    bottom: -50px;
+}
+
+
+.footer_menu{
+
+    color: #f2f2ecde;
+    display: flex;
+    flex-direction: row;
+    bottom: 100px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.footer_contactanos{
+    position: relative;
+    right: -650px;
+}
+.footer_contactos{
+    position: relative;
+    bottom: -50px;
+    right: -60px
+}
+
+.footer_cambios{
+    position: relative;
+    right: -550px;
+}
+.footer_preguntas{
+    position: relative;
+    right: -450px;
+}
+
+.footer_talle{
+    position: relative;
+    right: -350px;
+}
+.texto_nosotros{
+    position: relative;
+    justify-content: right;
+}
+.mail{
+    position: relative;
+    right: -600px;
+}
+.direccion{
+    position: relative;
+    right: -500px;
+}
+.footer_redes{
+    background-color: black;
+    color: #f2f2ecde;
+    height: 70px;
+    width: 120px;
+    position: relative;
+    bottom: -250px;
+    right: -680px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+
+}
+.footer_icono_mail{
+    position: relative;
+    left: 30px;
+}
+
+
+
+
+.main_nosotros{
+    background-color:  #f2f2ecde;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 700px;
+    font-family: 'Mulish', sans-serif;
+
+}
+
+.nosotros_texto{
+    width: 60%;
+    height: 600px;
+    font-weight: lighter;
+    font-size: 15px;
+    justify-content: center;
+    position: relative;
+    left: 200px;
+    bottom: -230px;
+    line-height: 30px;
+    align-content: center;
+}
+
+.nosotros_foto { 
+    position: relative;
+    bottom: -50px;
+    right: 180px;
+}
+
+.nosotros_titulo {
+    width: 400px;
+    position: relative;
+    right: 340px;
+    top: 160px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:'Mulish', sans-serif;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+        
+        .header-contenedor{
+          max-width: 600px;
+        }
+        .header_logo {
+            position: relative;
+            right: 150px;}
+        .header-menu{
+            background-color: white;
+            width: 500px;
+            position: relative;
+            bottom: -40px;
+            left: 200px;
+            color: black;
+            display: flex;
+            justify-content: space-between;
+        }    
+
+        .header-inicio{
+            position: relative;
+            right: 340px;
+            background-color: white;
+        }
+
+
+        .banner{
+           width: 700px;
+           height: 400px;
+           position: relative;
+           right: -50px;
+        }
+
+        .intimates_imagenes_bloque{
+            position: relative;
+            right: -100px;
+        }
+        
+
+       .explore{
+           position: relative;
+           right: -100px;
+       }
+       .explore_collection{
+           display: flex;
+           flex-direction: column;
+           position: relative;
+           right: -100px;
+       }
+       
+       
+      .img_intimates{
+          width: 550px;
+          height: 700;
+      }
+
+        .boton_intimates{
+          position: relative;
+          right: -400px;
+          top: 500px;
+    
+      }
+
+      .img_sport{
+        width: 550px;
+        height: 700px;
+    }
+    
+      .img_sleep {
+          width: 550px;
+          height: 700px;
+      }
+     .fotoblog{
+         width: 750px;
+         height: 1000px;
+     }
+     .blog_texto{
+         position: relative;
+         right: -300px;
+         top: 50px;
+     }
+     .blog__texto{
+         font-weight: bold;
+     }
+
+     .imgfinales{
+         width: 600px;
+         position: relative;
+         right: -130px;
+         bottom: -450px;
+     }
+
+     .newsletter{
+         position: relative;
+         bottom: -300px;
+         right: -110px;
+     }
+
+
+     .footer_caja{
+         bottom: -500px;
+     }
+     footer{
+         width: 790px;
+         height: 300px;
+         position: relative;
+         right: -40px;
+         
+     }
+
+     .footer_menu{
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+     }
+     
+     .footer_cambios{
+        position: relative;
+        right: -50px;
+    }
+    .footer_preguntas{
+        position: relative;
+        right: -50px;
+    }
+    
+    .footer_talle{
+        position: relative;
+        right: -50px;
+    }
+    .footer_contactanos{
+        position: relative;
+        right: -50px;
+    }
+    .footer_contactos{
+        position: relative;
+        top: -100px;
+        right: 200px;
+    }
+    .footer_redes{
+        left: 300px;
+    }
+}
+    
