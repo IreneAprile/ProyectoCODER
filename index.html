@@ -24,16 +24,16 @@
     <!--aqui comienza el header-->
     <header>
         <div class="header-inicio">
-            <p class="container-fluid header-iniciotexto"> Open showroom - 3 y 6 cuotas sin sin interes - Envios a todo el país</p>
+            <p class="container header-iniciotexto"> Open showroom - 3 y 6 cuotas sin sin interes - Envios a todo el país</p>
         </div>
         <div class="header-contenedor"> 
         <div class="header-menu">
             
-              <a  href="./index.html" class="header_home" >Home</a> 
-              <a  href="./pages/sleep.html" class="margin">Sleepwear</a> 
-              <a  href="./pages/sport.html" class="margin">Activewear</a> 
-              <a  href="./pages/intimates.html" class="margin">Intimates</a> 
-             <a  href="./pages/nosotros.html" class="margin">Nosotros</a> 
+              <a  href="./index.html" class="header_home header__menu" >Home</a> 
+              <a  href="./pages/sleep.html" class="margin header__menu">Sleepwear</a> 
+              <a  href="./pages/sport.html" class="margin header__menu">Activewear</a> 
+              <a  href="./pages/intimates.html" class="margin header__menu">Intimates</a> 
+             <a  href="./pages/nosotros.html" class="margin header__menu">Nosotros</a> 
             
         </div>
          <nav class="header-contenedor">
@@ -56,43 +56,28 @@
     <div class="intimates_imagenes_bloque">  
        <p class="intimates" >New in</p>
 
-    <div class="row container"> 
+    <div class="container-fluid"> 
+     <div class="row">
           
-        <div class="col-md-2 offset-md-1"> <img src="./imagenes/corpiñonegro.webp" alt="Corpiño Lee" class="intimates_theo"> </div>
-        <div class="col-md-2"><img src="./imagenes/bombachanegra.webp" alt="Bombacha Lee" class="intimates_lee"> </div>
-        <div class="col-md-2"> <img src="./imagenes/L2212902553_P1.webp" alt="Bombacha Rome" class="intimates_rome"> </div> 
-        <div class="col-md-2"><img src="./imagenes/L2211014530_P1.webp" alt="Corpiño Lee" class="intimates_hazel"> </div>
-        <div class="col-md-2"><img src="./imagenes/L2212025530_P1.webp" alt="Corpiño Lee" class="intimates_roomie"> </div>
+        <div class="col-md offset-md-1"> <img src="./imagenes/corpiñonegro.webp" alt="Corpiño Lee" class="intimates_theo"> </div>
+        <div class="col-md"><img src="./imagenes/bombachanegra.webp" alt="Bombacha Lee" class="intimates_lee"> </div>
+        <div class="col-md"> <img src="./imagenes/L2212902553_P1.webp" alt="Bombacha Rome" class="intimates_rome"> </div> 
+        <div class="col-md"><img src="./imagenes/L2211014530_P1.webp" alt="Corpiño Lee" class="intimates_hazel"> </div>
+        <div class="col-md"><img src="./imagenes/L2212025530_P1.webp" alt="Corpiño Lee" class="intimates_roomie"> </div>
+
+     </div>
     </div>
 
-    <div class="row container-texto"> 
-       <div class="col-md-2 offset-md-1"><p class= "intimates_theo">Bralette Theo </p> </div> 
-       <div class="col-md-2"><p class="intimates_lee">Lee Thong </p> </div> 
-       <div class="col-md-2"><p class="intimates_rome">Rome Thong</p> </div> 
-       <div class="col-md-2"><p class="intimates_hazel">Hazel Bralette</p> </div> 
-       <div class="col-md-2"><p class="intimates_roomie">Roomie Thong</p> </div> 
-    
+    <div class="container-fluid"> 
+     <div class="row">
+       <div class="col-md offset-md-2"><p class="intimates_theo_texto">Bralette Theo </p> </div> 
+       <div class="col-md"><p class="intimates_lee_texto">Lee Thong </p> </div> 
+       <div class="col-md"><p class="intimates_rome_texto">Rome Thong</p> </div> 
+       <div class="col-md"><p class="intimates_hazel_texto">Hazel Bralette</p> </div> 
+       <div class="col-md"><p class="intimates_roomie_texto">Roomie Thong</p> </div> 
+     </div>
     </div>
 
-
-      <div class="intimates_imagenes"> 
-          
-          <img src="./imagenes/corpiñonegro.webp" alt="Corpiño Lee" class="intimates_theo"> 
-          <img src="./imagenes/bombachanegra.webp" alt="Bombacha Lee" class="intimates_lee"> 
-          <img src="./imagenes/L2212902553_P1.webp" alt="Bombacha Rome" class="intimates_rome"> 
-          <img src="./imagenes/L2211014530_P1.webp" alt="Corpiño Lee" class="intimates_hazel"> 
-          <img src="./imagenes/L2212025530_P1.webp" alt="Corpiño Lee" class="intimates_roomie"> 
-      </div>
-
-          <div class="intimates_imagenes"> 
-              <p class= "intimates_theo">Bralette Theo </p> 
-              <p class="intimates_lee">Lee Thong </p>
-              <p class="intimates_rome">Rome Thong</p>
-              <p class="intimates_hazel">Hazel Bralette</p>
-              <p class="intimates_roomie">Roomie Thong</p>
-          
-          </div>
-        </div>  
            <!--seccion explorar la coleccion-->
           <div>
             <a href="/pages/sport.html"><p class="explore" >EXPLORE THE COLLECTION</p></a> 
@@ -104,11 +89,16 @@
             <img src="./imagenes/homesleep.jpg" alt="Imagen Sleepwear" class="img_sleep">
           </div>
           
-            <div class="explore_botones">
-           <a href="/pages/intimates.html"> <button class="boton_intimates">Intimates</button> </a>
-            <a href="/pages/sport.html"><button class="boton_sport" >Activewear</button></a>
-            <a href="/pages/sleep.html"> <button class="boton_sleep">Sleepwear</button> </a>
-            </div>
+            
+             <div class="container-fluid">
+                <div class="row">
+           <div class="col-md"><button type="button" class="btn btn-outline-dark button_intimates">intimates</button></div> 
+           <div class="col-md"> <button type="button" class="btn btn-outline-dark button_intimates button_sport">sport</button></div> 
+           <div class="col-md"><button type="button" class="btn btn-outline-dark button_intimates button_sleep">sleepwear</button></div> 
+               </div>
+             </div>
+
+
              <!--seccion blog-->
               <div class="blog">  
 
@@ -116,13 +106,16 @@
                   <img class="fotoblog" src="./imagenes/blog.jpg" alt="Imagen Blog">
                   </nav>   
 
-                <nav class="blog_texto">
-                    <h3 class="blog_titulo"> Wellness blog</h3>
-                    <p class="blog__texto">Explorá nuestro blog con ideas de recetas veganas, 
-                        estilo de vida y bienestar</p>
-                    <button class="blog_boton">Ir al blog</button>
-                </nav>   
                 </div>
+
+
+                <div class="col-md-6 texto_blog">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                      <h2 class="titulo_blog">wellness blog</h2>
+                      <p class="texto-blog">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+                      <button class="btn btn-outline-secondary boton_blog" type="button">ir al blog</button>
+                    </div>
+                  </div>
              <!--seccion newsletter-->
              
          <div class="newsletter">
