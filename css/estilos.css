@@ -27,10 +27,8 @@ header {
     font-family: 'Mulish', sans-serif; 
     font-weight: lighter;
     padding-bottom: -100px;
-    width: 100%;
     justify-content: center;
     align-content: center;
-    background-color: rgba(45, 45, 45, 0.1);
     font-size: 15px;
     background-color: #e8e4df;
     margin-top: -15px;
@@ -41,7 +39,8 @@ header {
     letter-spacing: 2px;
     position: relative;
     left: 380px;
-    
+    justify-content: center;
+   
 }
 
 
@@ -67,6 +66,12 @@ header {
 .header__menu{
     text-decoration: none;
     color: black;
+    transition: 1;
+}
+.header__menu:hover{
+   text-decoration: underline;
+   color: #e8e4df;
+   font-weight: bold;
 }
 
 
@@ -133,7 +138,10 @@ body{
         font-weight: bold;
         width: 160px;
         height: 200px;
+    
     }
+
+
     .intimates_lee{
         position: relative;
         left: -8px;
@@ -191,9 +199,8 @@ body{
         padding-top: 100px;
         padding-bottom: 40px;
         text-align: center;
-        text-decoration: underline
-        
-        
+        text-decoration: underline;
+        font-weight: 300;
     }
     
     .explore_collection { 
@@ -269,10 +276,11 @@ body{
 
     .fotoblog{
         position: relative;
-        left: 50px;
+        left: -100px;
         background-color: wheat;
         width: 600px;
         height: 800px;
+        
     }
 
     .newsletter{
@@ -287,7 +295,14 @@ body{
     text-align: center ;
     position: relative;
     bottom: -30px;
+    padding-bottom: 10px;
     }
+    .imgbloquesegundo{
+        align-items: center;
+        text-align: center ;
+        position: relative;
+        bottom: -30px;
+        }
 
     .imgfinales {
         background-color: #F2F2EC;
@@ -350,6 +365,7 @@ body{
     left: 700px;
     top: -720px;
     border-style: none;
+    width: 600px;
 }
 .boton_blog{
     font-family: 'Mulish', sans-serif;
@@ -376,6 +392,10 @@ body{
     height: 150px;
     font-weight: lighter;
     line-height: 30px;
+}
+
+.carousel-item {
+    transition: 1s;
 }
 /* SECCION NEWSLETTER */
 
@@ -530,8 +550,12 @@ body{
 
 
 
+/*ANIMACIONES*/
 
 
+
+
+/*
 @media screen and (max-width: 600px) {
         
         .header-contenedor{
@@ -550,13 +574,6 @@ body{
             display: flex;
             justify-content: space-between;
         }    
-
-        .header-inicio{
-            position: relative;
-            right: 340px;
-            background-color: white;
-        }
-
 
         .banner{
            width: 700px;

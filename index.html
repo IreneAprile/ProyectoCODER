@@ -19,14 +19,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!--aqui comienza el header-->
     <header>
-        <div class="header-inicio">
-            <p class="container header-iniciotexto"> Open showroom - 3 y 6 cuotas sin sin interes - Envios a todo el país</p>
+        <div class="container-fluid header-inicio">
+            <p class="contianer-fluid header-iniciotexto animate__animated animate__fadeIn animate__infinite animate__slower"> Open showroom - 3 y 6 cuotas sin sin interes - Envios a todo el país</p>
         </div>
-        <div class="header-contenedor"> 
+
+        <div class="container-fluid header-contenedor"> 
         <div class="header-menu">
             
               <a  href="./index.html" class="header_home header__menu" >Home</a> 
@@ -45,11 +51,13 @@
            </ul>
        </div>
 
+
+
     </header>
         <!--aqui comienza el cuerpo-->
   <main>
       <section>
-      <div>
+      <div class="container-fluid">
        <img src="./imagenes/banner.png" alt="Banner Barthesa" class="banner" width="1500" height="800">
       </div>
          <!--seccion new in-->
@@ -58,7 +66,7 @@
 
     <div class="container-fluid"> 
      <div class="row">
-          
+    
         <div class="col-md offset-md-1"> <img src="./imagenes/corpiñonegro.webp" alt="Corpiño Lee" class="intimates_theo"> </div>
         <div class="col-md"><img src="./imagenes/bombachanegra.webp" alt="Bombacha Lee" class="intimates_lee"> </div>
         <div class="col-md"> <img src="./imagenes/L2212902553_P1.webp" alt="Bombacha Rome" class="intimates_rome"> </div> 
@@ -79,7 +87,7 @@
     </div>
 
            <!--seccion explorar la coleccion-->
-          <div>
+          <div data-aos="fade-left">
             <a href="/pages/sport.html"><p class="explore" >EXPLORE THE COLLECTION</p></a> 
           </div>
 
@@ -100,22 +108,30 @@
 
 
              <!--seccion blog-->
-              <div class="blog">  
+              
+                  <div class="blog">  
 
-                  <nav> 
-                  <img class="fotoblog" src="./imagenes/blog.jpg" alt="Imagen Blog">
-                  </nav>   
-
-                </div>
-
-
-                <div class="col-md-6 texto_blog">
-                    <div class="h-100 p-5 bg-light border rounded-3">
-                      <h2 class="titulo_blog">wellness blog</h2>
-                      <p class="texto-blog">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-                      <button class="btn btn-outline-secondary boton_blog" type="button">ir al blog</button>
+                    <div class="container">
+                        <div class="row">
+                         <div class="col-3"> 
+                       <img data-aos="fade-right" class="fotoblog" src="./imagenes/blog.jpg" alt="Imagen Blog"> 
+                         </div> 
+                        </div>
+                    </div>   
+  
+                    <div data-aos="fade-up"
+                    data-aos-anchor-placement="bottom-bottom" class="col-9 texto_blog">
+                      <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2 class="titulo_blog">wellness blog</h2>
+                        <p class="texto-blog">Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+                        <button class="btn btn-outline-secondary boton_blog" type="button">ir al blog</button>
+                      </div>
                     </div>
+  
                   </div>
+
+                  
+
              <!--seccion newsletter-->
              
          <div class="newsletter">
@@ -169,8 +185,8 @@
 
 
             <div class="footer_contactos">
-               <div class="mail"><i class="fa-regular fa-envelope" class> </i> <p>contacto@barthesa.com</p> </div>
-                <div class="direccion"><i class="fa-regular fa-location-dot"></i> <p>Av. Las Heras 3777 - martes a viernes de 14 a 20 hs</p> </div>
+               <div class="mail"><p>contacto@barthesa.com</p> </div>
+                <div class="direccion"> <p>Av. Las Heras 3777 - martes a viernes de 14 a 20 hs</p> </div>
                 
             </div>
         </section>
@@ -180,6 +196,10 @@
         <!--link JS-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
