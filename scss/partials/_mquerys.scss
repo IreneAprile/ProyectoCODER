@@ -1,0 +1,136 @@
+@media screen and (max-width: 600px) {
+        
+    .header-contenedor{
+      max-width: 600px;
+    }
+    .header_logo {
+        position: relative;
+        right: 150px;}
+    .header-menu{
+        background-color: white;
+        width: 500px;
+        position: relative;
+        bottom: -40px;
+        left: 200px;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+    }    
+
+    .banner{
+       width: 700px;
+       height: 400px;
+       position: relative;
+       right: -50px;
+    }
+
+    .intimates_imagenes_bloque{
+        position: relative;
+        right: -100px;
+    
+    }
+    
+
+   .explore{
+       position: relative;
+       right: -100px;
+   }
+   .explore_collection{
+       display: flex;
+       flex-direction: column;
+       position: relative;
+       right: -100px;
+   }
+   
+   
+  .img_intimates{
+      width: 550px;
+      height: 700;
+  }
+
+    .boton_intimates{
+      position: relative;
+      right: -400px;
+      top: 500px;
+
+  }
+
+  .img_sport{
+    width: 550px;
+    height: 700px;
+}
+
+  .img_sleep {
+      width: 550px;
+      height: 700px;
+  }
+ .fotoblog{
+     width: 750px;
+     height: 1000px;
+ }
+ .blog_texto{
+     position: relative;
+     right: -300px;
+     top: 50px;
+ }
+ .blog__texto{
+     font-weight: bold;
+ }
+
+ .imgfinales{
+     width: 600px;
+     position: relative;
+     right: -130px;
+     bottom: -450px;
+ }
+
+ .newsletter{
+     position: relative;
+     bottom: -300px;
+     right: -110px;
+ }
+
+
+ .footer_caja{
+     bottom: -500px;
+ }
+ footer{
+     width: 790px;
+     height: 300px;
+     position: relative;
+     right: -40px;
+     
+ }
+
+ .footer_menu{
+     display: flex;
+     flex-direction: column;
+     justify-content: start;
+ }
+ 
+ .footer_cambios{
+    position: relative;
+    right: -50px;
+}
+.footer_preguntas{
+    position: relative;
+    right: -50px;
+}
+
+.footer_talle{
+    position: relative;
+    right: -50px;
+}
+.footer_contactanos{
+    position: relative;
+    right: -50px;
+}
+.footer_contactos{
+    position: relative;
+    top: -100px;
+    right: 200px;
+}
+.footer_redes{
+    left: 300px;
+}
+}

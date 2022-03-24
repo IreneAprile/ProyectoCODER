@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    /* HEADER */
+    
+    header {
+        color: black;
+        height: 100%;
+        box-shadow: whitesmoke;
+        padding: 1rem;
+        position: relative;
+    }
+    .header-contenedor {
+        max-width: 1200px;
+        margin: auto;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    .header-inicio {
+        color: black;
+        font-family: 'Mulish', sans-serif; 
+        font-weight: lighter;
+        padding-bottom: -100px;
+        justify-content: center;
+        align-content: center;
+        font-size: 15px;
+        background-color: #e8e4df;
+        margin-top: -15px;
+    }
+    .header-iniciotexto{
+        position: relative;
+        left: 500px;
+        letter-spacing: 2px;
+        position: relative;
+        left: 380px;
+        justify-content: center;
+       
+    }
+    
+    
+    .header-menu{
+        color: black;
+        width: 500px;
+        height: 100%;
+        background-color: white;
+        justify-items: left;
+        padding-left: 10px;
+        padding-right: 80px;
+        margin: 2rem;
+        font-weight: lighter;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+        left: -90px;
+        
+        
+    
+    }
+    .header__menu{
+        text-decoration: none;
+        color: black;
+        transition: 1;
+    }
+    .header__menu:hover{
+       text-decoration: underline;
+       color: #e8e4df;
+       font-weight: bold;
+    }
+    
+    
+    .header_logo {
+        position: relative;
+        right: 250px;
+        
+    }
+    
+    .header_usuario{
+        position: relative;
+        right: -200px;
+    }
+    .header-iconos {
+        list-style: none;
+        width: 50px;
+        position: relative;
+        right: -200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    
