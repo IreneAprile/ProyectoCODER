@@ -1,0 +1,330 @@
+/* BODY */
+
+body{
+    font-family:'Mulish', sans-serif;
+    background-color: white;
+    
+}
+.banner{
+    width: 1500px ;
+    height: 800px;
+}
+
+/* SECCION NEW IN */
+.container{
+    position: relative;
+    right: -100px;
+}
+.container-texto{
+    position: relative;
+    right: -100px;
+}
+.intimates {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
+    }
+    
+
+
+    .intimates_imagenes { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }    
+    .intimates_theo{
+        position: relative;
+        left: -25px;
+        font-weight: bold;
+        width: 160px;
+        height: 200px;
+    
+    }
+
+
+    .intimates_lee{
+        position: relative;
+        left: -8px;
+        font-weight: bold;
+        width: 160px;
+        height: 200px;
+    }
+    .intimates_rome{
+        position: relative;
+        left: 18px;
+        font-weight: bold;
+        width: 160px;
+        height: 200px;
+    }
+    .intimates_hazel{
+        position: relative;
+        left: 25px;
+        width: 160px;
+        height: 200px;
+    }
+    .intimates_roomie{
+        position: relative;
+        left: 30px;
+        width: 160px;
+        height: 200px;
+    }
+
+    .intimates_theo_texto{
+        position: relative;
+        left: -110px;
+    }
+
+    .intimates_lee_texto{
+        position: relative;
+        left: -60px;
+    }
+    .intimates_rome_texto{
+        position: relative;
+        left: -20px;
+    }
+    .intimates_hazel_texto{
+        position: relative;
+        left: 5px;
+    }
+    .intimates_roomie_texto{
+        position: relative;
+        left: 30px;
+    }
+  
+   
+    /* SECCION EXPLORE THE COLLECTION */
+    
+    .explore{
+        color: black;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        text-align: center;
+        text-decoration: underline;
+        font-weight: 300;
+    }
+    
+    .explore_collection { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+
+    .explore_botones {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-bottom: 80px;
+    }
+    .img_intimates{
+        width: 430px;
+        height: 630px;
+    }
+    .img_sport{
+        width: 430px;
+        height: 630px;
+    }
+    .img_sleep{
+        width: 430px;
+        height: 630px;
+    }
+
+    .button_intimates{
+        border-style: none;
+        font-family: 'Mulish', sans-serif;;
+        letter-spacing: 10px;
+        color: whitesmoke;
+        font-weight: bolder;
+        text-transform: uppercase;
+        position: relative;
+        top: -390px;
+        left: 100px;
+        font-size: 30px;
+    }
+
+    .button_sport{
+        border-style: none;
+        font-family: 'Mulish', sans-serif;
+        letter-spacing: 10px;
+        color: whitesmoke;
+        font-weight: bolder;
+        text-transform: uppercase;
+        position: relative;
+        top: -390px;
+        left: 150px;
+        font-size: 30px;
+    }
+    .button_sleepwear{
+        border-style: none;
+        font-family:'Mulish', sans-serif;
+        letter-spacing: 10px;
+        color: whitesmoke;
+        font-weight: bolder;
+        text-transform: uppercase;
+        position: relative;
+        top: -390px;
+        right: -450px;
+        font-size: 30px;
+    }
+
+
+    /* SECCION BLOG */
+    .blog {
+        background-color:#F2F2EC;
+    }
+
+    .fotoblog{
+        position: relative;
+        left: -100px;
+        background-color: wheat;
+        width: 600px;
+        height: 800px;
+        
+    }
+
+    .newsletter{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .imgbloque{
+    align-items: center;
+    text-align: center ;
+    position: relative;
+    bottom: -30px;
+    padding-bottom: 10px;
+    }
+    .imgbloquesegundo{
+        align-items: center;
+        text-align: center ;
+        position: relative;
+        bottom: -30px;
+        }
+
+    .imgfinales {
+        background-color: #F2F2EC;
+        padding-bottom: 100px;
+        height: 500px;
+    }
+
+    
+.blog {
+    background-color: #f7f9fa;
+    height: 800px;
+    width: 100%;
+}
+
+.blog_texto{
+    position: relative;
+    right: -700px;
+    top: -200px;
+}
+
+.blog_titulo {
+    font-size: 25px;
+    letter-spacing: 2px;
+    position: relative;
+    left: 50px;
+    top: -450px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    
+}
+.blog__texto {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    right: -52px;
+    bottom: 450px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.blog_boton{
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #f7f9fa;
+    color: black;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    position: relative;
+    top: -480px;
+    left: 45px;   
+
+}
+.texto_blog{
+    font-family:'Mulish', sans-serif;
+    position: relative;
+    left: 700px;
+    top: -720px;
+    border-style: none;
+    width: 600px;
+}
+.boton_blog{
+    font-family:'Mulish', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-color: #f7f9fa;
+    color: black;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    padding-bottom: 15px;
+    
+
+}
+.titulo_blog{
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.texto-blog{
+    width: 500px;
+    height: 150px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.carousel-item {
+    transition: 1s;
+}
+/* SECCION NEWSLETTER */
+
+.input_email{
+    width: 300px;
+    position: relative;
+    bottom: -30px;
+    right: -130px;
+    size: 100px;
+    text-align: center;
+}
+.form_boton{
+    position: relative;
+    bottom: -75px;
+    left: -148px;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #f2f2ecde;
+    border-radius: 2px; 
+    border-width: 0px;
+    width: 250px;
+    height: 30px;   
+
+}
+
+
+.form_texto{
+    font-weight: lighter;
+}
