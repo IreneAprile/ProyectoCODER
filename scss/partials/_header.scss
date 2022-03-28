@@ -5,6 +5,64 @@
     }
     
     /* HEADER */
+
+    .logo{
+        width: 150px;
+        height: 50px;
+        position: relative;
+        right: -600px;
+    }
+    .navbar{
+        background-color: white !important;
+    }
+
+    .nav-item{
+        color: black;
+        font-family: 'Mulish', sans-serif;
+        font-weight: lighter;
+    }
+    .nav-item:hover{
+       text-decoration: underline;
+       color: #e8e4df !important;
+       font-weight: bold;
+    }
+    .collapse{
+        position: relative;
+        left: -130px;
+    }
+
+    
+    .header-iconos {
+        list-style: none;
+        width: 50px;
+        position: relative;
+        right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+    .header-iniciotexto{
+        position: relative;
+        left: 500px;
+        letter-spacing: 2px;
+        position: relative;
+        left: 380px;
+        justify-content: center;
+        font-weight: lighter;
+       
+    }
+    .navbar-light{
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    .navbarprimera{
+        background-color: #e8e4df !important;
+        padding-top: -50px;
+    }
+  
+
+
     
     header {
         color: black;
@@ -32,15 +90,6 @@
         font-size: 15px;
         background-color: #e8e4df;
         margin-top: -15px;
-    }
-    .header-iniciotexto{
-        position: relative;
-        left: 500px;
-        letter-spacing: 2px;
-        position: relative;
-        left: 380px;
-        justify-content: center;
-       
     }
     
     
@@ -84,15 +133,5 @@
     .header_usuario{
         position: relative;
         right: -200px;
-    }
-    .header-iconos {
-        list-style: none;
-        width: 50px;
-        position: relative;
-        right: -200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    
     }
     

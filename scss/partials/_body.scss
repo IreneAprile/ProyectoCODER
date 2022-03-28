@@ -78,23 +78,47 @@ body{
 
     .intimates_lee_texto{
         position: relative;
-        left: -60px;
+        left: -90px;
     }
     .intimates_rome_texto{
         position: relative;
-        left: -20px;
+        left: -70px;
     }
     .intimates_hazel_texto{
         position: relative;
-        left: 5px;
+        left: -70px;
     }
     .intimates_roomie_texto{
         position: relative;
-        left: 30px;
+        left: -50px;
     }
   
    
     /* SECCION EXPLORE THE COLLECTION */
+  
+    .container-imagenes{
+        position: relative;
+        right: 10px;
+    }
+     .imagen-intimates{
+         width: 430px;
+         height: 630px;
+     }
+
+     .imagen-sport{
+        width: 430px;
+        height: 630px;
+    }
+
+    .imagen-sleep{
+        width: 430px;
+        height: 630px;
+    }
+
+
+
+
+
     
     .explore{
         color: black;
@@ -172,10 +196,78 @@ body{
 
 
     /* SECCION BLOG */
-    .blog {
-        background-color:#F2F2EC;
-    }
 
+   .card{
+       width: 580px;
+   }
+   .titulo_blog{
+    letter-spacing: 3px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family:'Mulish', sans-serif;
+    font-size: 30px;
+}
+   .texto-blog{
+    width: 500px;
+    height: 150px;
+    font-weight: lighter;
+    line-height: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+.boton-blog{
+    font-family: 'Mulish', sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
+    color: black;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    position: relative;
+    top: 20px;
+    left: 10px;   
+    border-color: black
+
+}
+.boton-blog:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+
+
+
+
+
+.blog_boton{
+    font-family: 'Mulish', sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+   
+    color: black;
+    width: 200px;
+    height: 25px;
+    border-radius: 20px;
+    border-width: 1px;
+    position: relative;
+    top: -480px;
+    left: 45px;   
+    font-size: 10px;
+
+}
+
+
+
+
+
+
+
+    
     .fotoblog{
         position: relative;
         left: -100px;
@@ -300,6 +392,31 @@ body{
     transition: 1s;
 }
 /* SECCION NEWSLETTER */
+.form_boton{
+    position: relative;
+    bottom: -75px;
+    right: -600px !important;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #f2f2ecde;
+    border-radius: 2px; 
+    border-width: 0px;
+    width: 250px;
+    height: 30px;  
+    color: black; 
+
+}
+.form-size{
+    width: 300px;
+}
+
+
+
+
+
+
+
 
 .input_email{
     width: 300px;
@@ -320,11 +437,96 @@ body{
     border-radius: 2px; 
     border-width: 0px;
     width: 250px;
-    height: 30px;   
+    height: 30px;  
+    color: black; 
 
 }
 
 
 .form_texto{
     font-weight: lighter;
+}
+
+/* seccion #barthesa*/
+
+.container-imagenes{
+    background-color: #F2F2EC;
+    padding-bottom: 60px;
+    margin-bottom: 50px;
+}
+ .body-imagenes{
+     width: 130px;
+     height: 160px;
+     margin-top: 100px;
+     margin-right: 100px;
+     margin-left: 100px;
+
+ }
+.body-lovestories{
+    font-size: 25px;
+    position: relative;
+    left: 600px;
+    padding-top: 80px;
+}
+.imagen-insta2{
+    margin-left: 180px;
+    
+}
+.imagen-insta4{
+    margin-left: 20px;
+}
+.imagen-insta5{
+    margin-left: -60px;
+   
+}
+.imagen-insta6{
+    margin-left: 190px;
+    margin-top: 10px;
+    
+}
+.imagen-insta9{
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.imagen-insta7{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.imagen-insta8{
+    margin-left: -50px;
+    margin-top: 10px;
+}
+
+/*paginas sleep sport intimates*/
+.body-pjpadding{
+    padding-bottom: 30px;
+}
+
+
+/*pagina nosotras*/
+.img-nosotras{
+    width: 450px;
+    height: 650px;
+    margin-top: 40px;
+}
+.card-nosotras{
+    width: 400px;
+    height: 600px;
+}
+.card-texto{
+    font-size: 15px !important;
+    justify-content: end;
+    font-family: 'Mulish', sans-serif;
+    font-weight: lighter;
+}
+.card-titulo{
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    position: relative;
+    right: -20px;
+    padding-bottom: 30px;
+}
+.back-color{
+    background-color:  #F2F2EC !important;
 }

@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Barthesa Home</title>
+    <!--link BS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;500&display=swap" rel="stylesheet">
@@ -14,85 +17,166 @@
 </head>
 
 <body>
-
-    <header class="header">
-        <div class="header-inicio">
-            <p class="header-iniciotexto"> Open showroom - 3 y 6 cuotas sin sin interes - Envios a todo el país</p>
-        </div>
-        <div class="header-contenedor">
-            <div class="header-menu">
-
-                <a href="../index.html" class="header_home header__menu">Home</a>
-                <a href="../pages/sleep.html" class="margin header__menu">Sleepwear</a>
-                <a href="../pages/sport.html" class="margin header__menu">Activewear</a>
-                <a href="../pages/intimates.html" class="margin header__menu">Intimates</a>
-                <a href="../pages/nosotros.html" class="margin header__menu">Nosotros</a>
-
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid  navbarprimera">
+                <span
+                    class="navbar-text header-iniciotexto animate__animated animate__fadeIn animate__infinite animate__slower">
+                    Open showroom - 3 y 6 cuotas sin sin interes - Envios a todo el país
+                </span>
             </div>
-            <nav class="header-contenedor">
-                <a href="/index.html"> <img src="../imagenes/LogoBarthesa.png" alt="Logotipo Barthesa" width="150"
-                        height="50" class="header_logo" href="index.html"></a>
-                <div class="header-iconos">
-                    </ul>
-                    <li> <i class="fa-regular fa-user"></i> </li>
-                    <li> <i class="fa-regular fa-heart"></i> </li>
-                    </ul>
-                </div>
+        </nav>
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="logo" src="../imagenes/LogoBarthesa.png"
+                            alt="Logo"></a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/sleep.html">Sleepwear</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../pages/sport.html">Active</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../pages/intimates.html">Intimates</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page"
+                                    href="../pages/nosotros.html">Nosotros</a>
+                            </li>
+                        </ul>
+                        <div class="header-iconos">
+                            </ul>
+                            <li> <i class="fa-regular fa-user header-iconos"></i> </li>
+                            <li> <i class="fa-regular fa-heart header-iconos"></i> </li>
+                            </ul>
+                        </div>
+                    </div>
+            </nav>
+
+        </div>
+
+
     </header>
 
+    <main>
+        <div class="container-fluid back-color">
+            <div class="row">
+                <div class="col-md-6 back-color">
+                    <div class="p-5 mb-4 bg-light rounded-3 back-color">
+                        <div class="container-fluid py-5 card-nosotras back-color">
+                            <h1 class="display-5 fw-bold card-titulo">Nosotras</h1>
+                            <p class="col-md-8 fs-4 card-texto">Desde que empezamos, nos distinguimos por nuestras
+                                estampas exclusivas.
+                                Trabajamos
+                                además con los mejores proveedores textiles del país, elegidos en un
+                                cuidadoso proceso de selección de insumos.
+                                Pensamos con mucho amor cada detalle, buscando a través de esto, sumar un
+                                valor agregado a nuestras colecciones, cuidando cada etapa del proceso
+                                productivo.
 
-    <main class="main_nosotros">
-        <div class="nosotros_foto">
-            <img src="../imagenes/nosotros.jpg" alt="Logo Nosotros" width="400" height="600">
-        </div>
-        <div>
-            <h5 class="nosotros_titulo">nosotras</h5>
-        </div>
-        <div class="nosotros_texto_caja">
-            <p class="nosotros_texto"> Desde que empezamos, nos distinguimos por nuestras estampas exclusivas.
-                Trabajamos
-                además con los mejores proveedores textiles del país, elegidos en un
-                cuidadoso proceso de selección de insumos.
-                Pensamos con mucho amor cada detalle, buscando a través de esto, sumar un
-                valor agregado a nuestras colecciones, cuidando cada etapa del proceso
-                productivo.
+                                Barthesa es mucho mas que una tienda de ropa, es un estilo y un modo de vida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6"><img class="img-nosotras" src="../imagenes/nosotros.jpg" alt="">
+                </div>
 
-                Barthesa es mucho mas que una tienda de ropa, es un estilo y un modo de vida. </p>
+            </div>
+
         </div>
+
+
     </main>
 
-    <footer class="footer_caja">
-        <section>
-            <div>
-                <ul class="footer_redes">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-whatsapp"></i>
-                    <i class="fa-brands fa-pinterest-p"></i>
-                </ul>
+    <!--Aca comienza el footer-->
+    <div class="container-fluid">
+        <footer class="py-5 footer-estilo">
+            <div class="row">
+                <div class="col-3 footer-serviciocliente">
+                    <h5>Customer Serive</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contactanos</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cambios y devoluciones</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Qué talle soy</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-3">
+                    <h5>About us</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nosotras</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nuestras
+                                responsabilidades</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Nuestra historia</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">#BARTHESAlovestories</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-4 offset-1">
+                    <form>
+                        <h5>Suscribite a nuestro Newsletter</h5>
+                        <p>Recibí regalos únicos</p>
+                        <i class="fa-solid fa-heart emoji-corazon"></i>
+                        <div class="d-flex w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary footer-boton" type="button">ENVIAR</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="footer_menu">
-
-                <div class="footer_talle">Qué talle soy </div>
-                <div class="footer_preguntas"> Preguntas frecuentes </div>
-                <div class="footer_cambios">Cambios y devoluciones </div>
-                <div class="footer_contactanos">Contactanos </div>
-
-            </div>
-
 
             <div class="footer_contactos">
-                <div class="mail">
+                <div class="footer-mail">
                     <p>contacto@barthesa.com</p>
                 </div>
-                <div class="direccion">
+                <div class="footer-direccion">
                     <p>Av. Las Heras 3777 - martes a viernes de 14 a 20 hs</p>
                 </div>
+                <div>
+                    <ul class="footer_redes emojis-finales">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </ul>
+                </div>
 
-            </div>
-        </section>
+                <div class="d-flex justify-content-between py-4 my-4 border-top footer-lineafinal">
+                </div>
+        </footer>
+    </div>
 
 
-    </footer>
-
+    <!--link JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
+</html>
