@@ -115,7 +115,7 @@ header {
 
 /* BODY */
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   background-color: white; }
 
 .banner {
@@ -200,15 +200,7 @@ body {
   position: relative;
   right: 10px; }
 
-.imagen-intimates {
-  width: 430px;
-  height: 630px; }
-
-.imagen-sport {
-  width: 430px;
-  height: 630px; }
-
-.imagen-sleep {
+.imagen-intimates, .imagen-sport, .imagen-sleep {
   width: 430px;
   height: 630px; }
 
@@ -246,7 +238,7 @@ body {
 
 .button_intimates {
   border-style: none;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   letter-spacing: 10px;
   color: whitesmoke;
   font-weight: bolder;
@@ -258,7 +250,7 @@ body {
 
 .button_sport {
   border-style: none;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   letter-spacing: 10px;
   color: whitesmoke;
   font-weight: bolder;
@@ -270,7 +262,7 @@ body {
 
 .button_sleepwear {
   border-style: none;
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   letter-spacing: 10px;
   color: whitesmoke;
   font-weight: bolder;
@@ -321,7 +313,7 @@ body {
   border-color: black; }
 
 .blog_boton {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   text-transform: lowercase;
   letter-spacing: 3px;
   color: black;
@@ -395,7 +387,7 @@ body {
   line-height: 30px; }
 
 .blog_boton {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   background-color: #f7f9fa;
@@ -409,7 +401,7 @@ body {
   left: 45px; }
 
 .texto_blog {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   position: relative;
   left: 700px;
   top: -720px;
@@ -417,7 +409,7 @@ body {
   width: 600px; }
 
 .boton_blog {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   background-color: #f7f9fa;
@@ -787,3 +779,5 @@ form p {
     right: 200px; }
   .footer_redes {
     left: 300px; } }
+
+/* aqui declaro variables */
