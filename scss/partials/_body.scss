@@ -452,7 +452,7 @@ body{
 /* seccion #barthesa*/
 
 .container-imagenes{
-    background-color: #F2F2EC;
+    
     padding-bottom: 60px;
     margin-bottom: 50px;
 }
@@ -498,6 +498,9 @@ body{
     margin-left: -50px;
     margin-top: 10px;
 }
+.background-color{
+    background-color: #F2F2EC;
+}
 
 /*paginas sleep sport intimates*/
 .body-pjpadding{
@@ -506,10 +509,16 @@ body{
 
 
 /*pagina nosotras*/
+.position-nosotras{
+    position: relative;
+    bottom: 10px;
+}
 .img-nosotras{
+    
     width: 450px;
     height: 650px;
     margin-top: 40px;
+    
 }
 .card-nosotras{
     width: 400px;
@@ -531,4 +540,8 @@ body{
 }
 .back-color{
     background-color:  #F2F2EC !important;
+}
+.card{
+    width: 470px;
+    height: 150px;
 }

@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <meta name="description" content="Descubrí la última colección Home & Sleepwear en Barthesa. Adquirí tus conjuntos favoritos cómodos y con estampas exclusivas online. . Disfrutá de envío gratis y 30 días de cambio sin costo.">
+    <meta name="description"
+        content="Descubrí la última colección Home & Sleepwear en Barthesa. Adquirí tus conjuntos favoritos cómodos y con estampas exclusivas online. . Disfrutá de envío gratis y 30 días de cambio sin costo.">
     <meta name="keywords" content="Sleepwear, Homewear, Pijamas, Moda mujer, Quienes somos">
 </head>
 
@@ -33,10 +34,10 @@
     <header>
 
 
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light container-fluid">
             <div class="container-fluid  navbarprimera">
                 <span
-                    class="navbar-text header-iniciotexto animate__animated animate__fadeIn animate__infinite animate__slower">
+                    class=" container-fluid navbar-text header-iniciotexto header-iniciotextoresposive animate__animated animate__fadeIn animate__infinite animate__slower">
                     Open showroom - 3 y 6 cuotas sin sin interes - Envios a todo el país
                 </span>
             </div>
@@ -50,11 +51,11 @@
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img class="logo" src="./imagenes/LogoBarthesa.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="./index.html"><img class="logo" src="./imagenes/LogoBarthesa.png" alt="Logo"></a>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="./pages/sleep.html">Sleepwear</a>
@@ -98,8 +99,8 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="carousel-inner container-fluid">
+                <div class="carousel-item active container-fluid">
                     <img src="./imagenes/banner.png" class="d-block w-100" alt="bannerbarthesa">
                 </div>
                 <div class="carousel-item">
@@ -126,40 +127,42 @@
 
 
         <div class="intimates_imagenes_bloque">
-            <p class="intimates">New in</p>
+            <div class="container-fluid">
+                <p class="intimates">New in</p>
+            </div>
 
             <div>
                 <div class="container-fluid">
                     <div class="row">
 
                         <div class="col-sm-2 offset-md-1"> <img src="./imagenes/corpiñonegro.webp" alt="Corpiño Lee"
-                                class="intimates_theo"> </div>
+                                class="intimates_theo img-fluid"> </div>
                         <div class="col-sm-2"><img src="./imagenes/bombachanegra.webp" alt="Bombacha Lee"
-                                class="intimates_lee"> </div>
-                        <div class="col-sm-2"> <img src="./imagenes/L2212902553_P1.webp" alt="Bombacha Rome"
-                                class="intimates_rome"> </div>
-                        <div class="col-sm-2"><img src="./imagenes/L2211014530_P1.webp" alt="Corpiño Lee"
-                                class="intimates_hazel"> </div>
-                        <div class="col-sm-2"><img src="./imagenes/L2212025530_P1.webp" alt="Corpiño Lee"
-                                class="intimates_roomie"> </div>
+                                class="intimates_lee img-fluid"> </div>
+                        <div class="col-sm-2 col-hidden"> <img src="./imagenes/L2212902553_P1.webp" alt="Bombacha Rome"
+                                class="intimates_rome img-fluid"> </div>
+                        <div class="col-sm-2 col-hidden "><img src="./imagenes/L2211014530_P1.webp" alt="Corpiño Lee"
+                                class="intimates_hazel img-fluid"> </div>
+                        <div class="col-sm-2 col-hidden"><img src="./imagenes/L2212025530_P1.webp" alt="Corpiño Lee"
+                                class="intimates_roomie img-fluid"> </div>
 
                     </div>
                 </div>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-2 offset-md-2">
+                        <div class="col-md-2 offset-md-2 col-hidden">
                             <p class="intimates_theo_texto">Bralette Theo </p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-hidden">
                             <p class="intimates_lee_texto">Lee Thong </p>
                         </div>
                         <div class="col-md-2">
                             <p class="intimates_rome_texto">Rome Thong</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-hidden">
                             <p class="intimates_hazel_texto">Hazel Bralette</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-md-2 col-hidden">
                             <p class="intimates_roomie_texto">Roomie Thong</p>
                         </div>
                     </div>
@@ -171,7 +174,7 @@
 
 
             <!--seccion explorar la coleccion-->
-            <div data-aos="fade-left">
+            <div class="container-fluid bloeque-explore" data-aos="fade-left">
                 <a href="/pages/sport.html">
                     <p class="explore">EXPLORE THE COLLECTION</p>
                 </a>
@@ -180,85 +183,78 @@
 
             <div class="container container-imagenes">
                 <div class="row">
-                    <div class="col-md-4"><img class="imagen-intimates" src="./imagenes/intimates.jpg" alt="Intimates">
+                    <div class="col-md-4 padding-explore"><img class="imagen-intimates" src="./imagenes/intimates.jpg"
+                            alt="Intimates">
                     </div>
-                    <div class="col-md-4"><img class="imagen-sport" src="./imagenes/homesport.jpg" alt="Activewear">
+                    <div class="col-md-4 padding-explore"><img class="imagen-sport" src="./imagenes/homesport.jpg"
+                            alt="Activewear">
                     </div>
                     <div class="col-md-4"><img class="imagen-sleep" src="./imagenes/homesleep.jpg" alt="Sleepwear">
                     </div>
                 </div>
             </div>
-            <div class="container-fluid">
+            <div class="container-fluid container-botones">
                 <div class="row">
                     <div class="col-md-4"><button href="./pages/intimates.html" type="button"
                             class="btn btn-outline-dark button_intimates intimates-button">intimates</button></div>
                     <div class="col-md-4"> <button href="./pages/sport.html" type="button"
                             class="btn btn-outline-dark button_intimates button_sport sport-button">sport</button></div>
                     <div class="col-md-4"><button href="./pages/sleep.html" type="button"
-                            class="btn btn-outline-dark button_intimates button_sleep sleep-button">sleepwear</button></div>
+                            class="btn btn-outline-dark button_intimates button_sleep sleep-button">sleepwear</button>
+                    </div>
                 </div>
             </div>
 
 
 
-            <!--seccion blog
-
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img data-aos="fade-right" class="fotoblog" src="./imagenes/blog.jpg" alt="Imagen Blog">              
-                        </div>
-                        <div class="p-5 mb-4 bg-light rounded-3 col-md-7 offset-md-2 card">
-                            <div class="container-fluid py-5 ">
-                              <h1 class="display-5 fw-bold titulo_blog">Wellness blog</h1>
-                              <p class="col-md-8 fs-4 texto-blog">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-                              <button class="btn btn-primary btn-lg boton-blog" type="button">Explorar mas</button>
-                            </div>
-                          </div>
-                        </div> -->
-
 
             <!--seccion imagenes finales-->
-            <div class="container-imagenes container-imagenes-padding">
+            <div class="container-imagenes container-imagenes-padding background-color">
                 <p class="body-lovestories titulo-imagenes">#BARTHESAlovestories</p>
                 <div class="container-fluid contenedor-secciones">
                     <div class="row">
                         <div class="col-md-2 offset-md-2"><img class="body-imagenes imagen-insta2 imagen1"
                                 src="./imagenes/insta2.jpg" alt=""></div>
-                        <div class="col-md-2"><img class="body-imagenes imagen2" src="./imagenes/insta3.jpeg" alt=""></div>
-                        <div class="col-md-2"><img class="body-imagenes imagen-insta4 imagen3" src="./imagenes/insta4.jpg"
-                                alt=""></div>
-                        <div class="col-md-2"><img class="body-imagenes imagen-insta5 imagen4" src="./imagenes/insta5.jpg"
-                                alt=""></div>
+                        <div class="col-md-2"><img class="body-imagenes imagen2" src="./imagenes/insta3.jpeg" alt="">
+                        </div>
+                        <div class="col-md-2 col-hidden"><img class="body-imagenes imagen-insta4 imagen3"
+                                src="./imagenes/insta4.jpg" alt=""></div>
+                        <div class="col-md-2 prueba col-hidden"><img class="body-imagenes imagen-insta5 imagen4"
+                                src="./imagenes/insta5.jpg" alt=""></div>
                     </div>
                 </div>
                 <div class="container-fluid container-imagenes">
                     <div class="row">
-                        <div class="col-md-2 offset-md-2"><img class="body-imagenes imagen-insta6 imagen5"
+                        <div class="col-md-2 offset-md-2 col-hidden"><img class="body-imagenes imagen-insta6 imagen5"
                                 src="./imagenes/nosotros.jpg" alt=""></div>
-                        <div class="col-md-2"><img class="body-imagenes imagen-insta9 imagen6" src="./imagenes/insta8.jpg"
-                                alt=""></div>
-                        <div class="col-md-2"><img class="body-imagenes imagen-insta7 imagen7" src="./imagenes/insta7.jpg"
-                                alt=""></div>
-                        <div class="col-md-2"><img class="body-imagenes imagen-insta8 imagen8" src="./imagenes/instagram9.jpg"
-                                alt=""></div>
+                        <div class="col-md-2 col-hidden"><img class="body-imagenes imagen-insta9 imagen6"
+                                src="./imagenes/insta8.jpg" alt=""></div>
+                        <div class="col-md-2 col-hidden"><img class="body-imagenes imagen-insta7 imagen7"
+                                src="./imagenes/insta7.jpg" alt=""></div>
+                        <div class="col-md-2 col-hidden"><img class="body-imagenes imagen-insta8 imagen8"
+                                src="./imagenes/instagram9.jpg" alt=""></div>
                     </div>
                 </div>
             </div>
     </main>
     <!--pie de pagina-->
 
-    <div class="container-fluid">
-        <footer class="py-5 footer-estilo">
+
+    <div class="container-fluid footer-responsive">
+        <footer class=" container-fluid py-5 footer-estilo">
             <div class="row">
                 <div class="col-3 footer-serviciocliente">
                     <h5 class="titulo-serviciocliente">Customer Serive</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contactanos</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Cambios y devoluciones</a>
+                        <li class="nav-item mb-2 item-serviciocliente"><a href="#"
+                                class="nav-link p-0 text-muted">Contactanos</a></li>
+                        <li class="nav-item mb-2 item-serviciocliente"><a href="#"
+                                class="nav-link p-0 text-muted">Cambios y devoluciones</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Qué talle soy</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                        <li class="nav-item mb-2 item-serviciocliente"><a href="#" class="nav-link p-0 text-muted">Qué
+                                talle soy</a></li>
+                        <li class="nav-item mb-2 item-serviciocliente"><a href="#"
+                                class="nav-link p-0 text-muted">FAQs</a></li>
 
                     </ul>
                 </div>
@@ -291,10 +287,10 @@
             </div>
 
             <div class="footer_contactos">
-                <div class="footer-mail">
+                <div class="footer-mail container-fluid">
                     <p class="contacto">contacto@barthesa.com</p>
                 </div>
-                <div class="footer-direccion">
+                <div class="footer-direccion container-fluid">
                     <p>Av. Las Heras 3777 - martes a viernes de 14 a 20 hs</p>
                 </div>
                 <div>
@@ -306,9 +302,10 @@
                     </ul>
                 </div>
 
-                <div class="d-flex justify-content-between py-4 my-4 border-top footer-lineafinal">
+                <div class=" container-fluid d-flex justify-content-between py-4 my-4 border-top footer-lineafinal">
                 </div>
         </footer>
+    </div>
     </div>
 
 

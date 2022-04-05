@@ -2,60 +2,20 @@
     .container-imagenes{
         width: 500px;
     }
-    .footer-serviciocliente{
-        font-size: 10px;
-        padding-left: -300px;
-    }
-    .footer-aboutus{
-        font-size: 10px;
-    }
-    .titulo-serviciocliente{
-        font-size: 12px;
-    }
-    .titulo-aboutus{
-        font-size: 12px;
-    }
-    .suscribite{
-        font-size: 12px;
-    }
-    .recibi{
-        font-size: 11px;
-        position: relative;
-        left: 8px;
-    }
-    .emoji{
-        font-size: 11px;
-        position: relative;
-        left: 50px;
-    }
-    .email{
-        width: 300px;
-    }
-    .send{
-        position: relative;
-        bottom: -50px;
-        left: -130px;
-    }
-    .contacto{
-        font-size: 12px;
-        position: relative;
-        bottom: -70px;
-        left: -100px;
-    }
-    .footer-direccion{
-        font-size: 11px;
-        position: relative;
-        bottom: -65px;
-        left: 370px;
-    }
+    
+    
     .imagen1{
         position: relative;
         left: -100px;
+        width: 150px;
+        height: 190px;
     }
     .imagen2{
         position: relative;
         left: 160px;
-        bottom: 260px;
+        bottom: 290px;
+        @extend .imagen1
+
     }
     .imagen3{
         position: relative;
@@ -104,7 +64,85 @@
         position: relative;
         top: -600px;
     }
+ /*header*/
 
+    .header-iniciotexto{
+        font-size: 10px;
+        
+    }
+    .logo{
+        position: relative;
+        left: -50px;
+    }
+
+    /*new in*/
+    .intimates{
+        position: relative;
+        left: -100px;
+    }
+    .intimates_rome{
+        visibility: hidden;
+    }
+    .intimates_hazel{
+       visibility: hidden; 
+    }
+    .intimates_roomie{
+        visibility: hidden;
+    }
+    .intimates_lee{
+        position: relative;
+        left: 170px;
+        top: -150px;
+        width: 90px;
+        height: 150px;
+    }
+    .intimates_theo{
+        width: 90px;
+        height: 150px;
+        position: relative;
+        left: 20px;
+    }
+    .intimates_theo_texto{
+        visibility: hidden;
+    }
+    .intimates_lee_texto{
+        visibility: hidden;
+    }
+    .intimates_rome_texto{
+        visibility: hidden;
+    }
+    .intimates_hazel_texto{
+        visibility: hidden;
+    }
+    .intimates_roomie_texto{
+        visibility: hidden;
+    }
+    .col-hidden{
+        display: none;
+    }
+    .explore{
+        padding-top: 10px;
+        position: relative;
+        left: -100px;
+    }
+    .container-imagenes{
+        position: relative;
+        left: -80px;
+    }
+    .container-botones{
+        position: relative;
+        left: -80px;
+    }
+    .prueba{
+        visibility: visible;
+       
+    }
+
+
+
+    
+
+   
 
         
     .header-contenedor{
@@ -191,53 +229,103 @@
      bottom: -450px;
  }
 
- .newsletter{
-     position: relative;
-     bottom: -300px;
-     right: -110px;
+ /*sleep*/
+.sleep-responsive{
+    position: relative;
+    left: -70px;
  }
-
-
- .footer_caja{
-     bottom: -500px;
- }
- footer{
-     width: 790px;
-     height: 300px;
-     position: relative;
-     right: -40px;
-     
- }
-
- .footer_menu{
-     display: flex;
-     flex-direction: column;
-     justify-content: start;
+ .noe-padding{
+     padding-bottom: 30px;
  }
  
- .footer_cambios{
-    position: relative;
-    right: -50px;
+ /*sport*/
+ 
+ /*nosotras*/ 
+ .img-nosotras{
+     position: relative;
+     top: -200px;
+     left: 30px;
+ }
+
+
+/*footer*/
+.footer-aboutus{
+    visibility: hidden;
+    
 }
-.footer_preguntas{
+.titulo-serviciocliente{
+    font-size: 15px;
+}
+.item-serviciocliente{
+    font-size: 12px;
+}
+.suscribite{
+    font-size: 12px;
+    width: 100%;
+    margin-right: 100%;
+    text-align:center;
+    
+}
+.recibi{
+    font-size: 11px;
     position: relative;
-    right: -50px;
+    left: 20px;
+}
+.emoji{
+    font-size: 12px;
+    position: relative;
+    left: 65px;
+    top: -20px;
+}
+.send{
+    position: relative;
+    top: 30px;
+    left: -145px;   
 }
 
-.footer_talle{
+.form-control{
+    width: 180px;
     position: relative;
-    right: -50px;
+    top: -20px;
+    height: 40px;
 }
-.footer_contactanos{
+.contacto{
     position: relative;
-    right: -50px;
+    left: -370px;
+    font-size: 12px;
 }
-.footer_contactos{
+.footer-direccion{
     position: relative;
-    top: -100px;
-    right: 200px;
+    left: 100px;
+    font-size: 12px;
 }
-.footer_redes{
-    left: 300px;
+.emojis-finales{
+    position: relative;
+    left: 205px;
+    font-size: 9px;
 }
+/*nosotras*/
+.img-nosotras{
+    position: relative;
+    top: -200px;
 }
+
+.padding-explore{
+    padding-bottom: 20px;
+}
+
+ 
+}
+/*sleep*/
+.sleep-responsive{
+   position: relative;
+   left: -70px;
+}
+.noe-padding{
+    padding-bottom: 30px;
+}
+
+/*sport*/
+
+/*nosotras*/
+
